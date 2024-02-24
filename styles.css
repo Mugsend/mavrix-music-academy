@@ -99,13 +99,13 @@ section {
   margin-bottom: 20px;
 }
 section h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
 }
 
 .course-title {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .course {
@@ -123,15 +123,15 @@ section h1 {
 .course-details {text-align: center;margin: auto;}
 
 .course-details h1 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .course-details h2 {
-    font-size: 1.75rem;
+    font-size: 1.25rem;
 }
 
 .course-details a {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   background: white;
   padding: 0px 5px;
   border: 1px solid black;
@@ -216,8 +216,8 @@ section h1 {
   padding: 0 20px;
   flex-direction: column;
 }
-.team-member-details h1{font-size: 3rem;}
-.team-member-details p{font-size: 1.5rem;}
+.team-member-details h1{font-size: 2rem;}
+.team-member-details p{font-size: 1.25rem;}
 .video-container{
   display: flex;
   flex-direction: column;
