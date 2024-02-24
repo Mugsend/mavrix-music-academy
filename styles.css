@@ -26,10 +26,6 @@ header {
 }
 
 nav {
-  
-  /* Allow the navbar to grow and occupy remaining space */
-  
-  /* Align navbar items in the center */
   display: none;
 }
 
@@ -44,7 +40,7 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  /* margin-right: 50px; */
+  margin-right: 40px;
 }
 
 nav ul li:last-child {
@@ -163,13 +159,14 @@ section h1 {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  padding: 0 10px;
 }
 
 .client {
-  width: 200px;
-  margin-bottom: 30px;
+  width: 50%;
   padding: 10px;
   border: 1px solid #ddd;
+  max-width: 300px;
 }
 
 .client img {
@@ -233,6 +230,15 @@ footer {
 }
 
 @media (min-width:900px) {
+  .header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav{
+    display: flex;
+    margin-right: 10px;
+  }
   .course-contents{display: flex;}
   .course-contents img{
     width: 50vw;
