@@ -10,9 +10,11 @@ body {
   background-color: #f8f8f8;
   overflow-x: hidden;
 }
-
+#home{
+  padding: 0;
+}
 header {
-  background-color: #000;
+  background-color: #090a09;
   color: #fff;
   padding: 4px;
 }
@@ -23,6 +25,7 @@ header {
 .logo img {
   height: 70px;
   /* Adjust height as needed */
+  border-radius: 50%;
 }
 
 nav {
@@ -56,7 +59,6 @@ nav ul li a {
 .thumbnail-container {
   position: relative;
   background-image: url('./src/daw_thumbnail.jpeg');
-  width: 100vw;
   height: 400px;
 }
 
@@ -70,6 +72,8 @@ nav ul li a {
 .thumbnail-caption-container {
   font-family: "Bebas Neue", sans-serif;
   font-size: 4.5rem;
+  padding-left: 10px;
+  color: #090a09;
 }
 
 .thumbnail-caption {
@@ -91,12 +95,12 @@ nav ul li a {
   margin-bottom: 20px;
 }
 
-section {
-  margin-bottom: 20px;
-}
+section {padding: 10px;}
 section h1 {
   font-size: 1.5rem;
-  text-align: center;
+  padding: 10px 0;
+  padding-left: 10px;
+  background: yellow;
 }
 
 .course-title {
@@ -105,8 +109,9 @@ section h1 {
 }
 
 .course {
-  padding: 0 23px;
+  padding: 20px 23px;
   margin-bottom: 20px;
+  background: #02c7b6;
 }
 
 .course-contents {
@@ -116,13 +121,14 @@ section h1 {
   width: 100%;
 }
 
-.course-details {text-align: center;margin: auto;}
+.course-details {text-align: center;margin: auto;background: #aaa731;padding: 10px 10px;}
 
 .course-details h1 {
   font-size: 2rem;
 }
 
 .course-details h2 {
+    line-height: 1.5;
     font-size: 1.25rem;
 }
 
@@ -210,11 +216,10 @@ section h1 {
 .team-member-details {
   display: flex;
   justify-content: center;
-  padding: 0 20px;
   flex-direction: column;
 }
 .team-member-details h1{font-size: 2rem;}
-.team-member-details p{font-size: 1.25rem;}
+.team-member-details p{background: #02c7b6;font-size: 1.25rem;color: white;padding: 10px;}
 .video-container{
   display: flex;
   flex-direction: column;
@@ -229,6 +234,9 @@ footer {
   padding: 20px;
 }
 
+.contact-container{
+  padding: 10px;
+}
 @media (min-width:900px) {
   .header-container{
     display: flex;
