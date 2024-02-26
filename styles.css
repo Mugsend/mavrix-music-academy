@@ -121,7 +121,7 @@ section h1 {
   width: 100%;
 }
 
-.course-details {text-align: center;margin: auto;background: #aaa731;padding: 10px 10px;}
+.course-details {text-align: center;/* margin: auto; */background: #aaa731;width: 100%;padding: 10px 10px;}
 
 .course-details h1 {
   font-size: 2rem;
@@ -215,8 +215,8 @@ section h1 {
 }
 .team-member-details {
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: space-between;
 }
 .team-member-details h1{font-size: 2rem;}
 .team-member-details p{background: #02c7b6;font-size: 1.25rem;color: white;padding: 10px;}
@@ -247,11 +247,11 @@ footer {
     display: flex;
     margin-right: 10px;
   }
-  .course-contents{display: flex;}
+  .course-contents{display: flex;justify-content: space-between;}
   .course-contents img{
     width: 50vw;
 }
-.team-member{display: flex;padding: 0 20px;}
+.team-member{display: flex;/* padding: 0 20px; */}
 .team-member img{
   width: 50vw;
 }
