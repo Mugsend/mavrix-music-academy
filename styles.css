@@ -19,12 +19,12 @@ header {
   padding: 4px;
 }
 
-.header-container {
+.header-container {display: flex;align-items: center;}
+.logo{
+  width: 100%;
 }
-
 .logo img {
   height: 70px;
-  /* Adjust height as needed */
   border-radius: 50%;
 }
 
@@ -55,7 +55,9 @@ nav ul li a {
   color: #fff;
   font-size: 25px;
 }
-
+.number{
+font-size: 1.3rem;
+}
 .thumbnail-container {
   position: relative;
   background-image: url('./src/daw_thumbnail.jpeg');
@@ -112,9 +114,6 @@ section h1 {
   padding: 20px 23px;
   margin-bottom: 20px;
   background: #02c7b6;
-}
-
-.course-contents {
 }
 
 .course-contents img {
@@ -238,6 +237,9 @@ footer {
   padding: 10px;
 }
 @media (min-width:900px) {
+  .logo{
+    width: auto;
+  }
   .header-container{
     display: flex;
     align-items: center;
@@ -246,6 +248,9 @@ footer {
   nav{
     display: flex;
     margin-right: 10px;
+  }
+  .number{
+    display: none;
   }
   .course-contents{display: flex;justify-content: space-between;}
   .course-contents img{
